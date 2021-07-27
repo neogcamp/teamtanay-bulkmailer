@@ -1,0 +1,34 @@
+{
+  "name": "teamtanay-bulkmailer",
+  "version": "1.0.0",
+  "description": "This package will be used to send bulk mails using csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "tsc && node index.js",
+    "build": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neogcamp/teamtanay-bulkmailer.git"
+  },
+  "author": "teamtanay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neogcamp/teamtanay-bulkmailer/issues"
+  },
+  "homepage": "https://github.com/neogcamp/teamtanay-bulkmailer#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.5",
+    "fs": "0.0.1-security",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.3",
+    "dotenv": "^10.0.0",
+    "tslint": "^5.12.1",
+    "typescript": "^4.3.5",
+    "xlsx": "^0.17.0"
+  }
+}
