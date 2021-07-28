@@ -59,8 +59,6 @@ const intervalRef = setInterval(() => {
 }, 1000);
 
 setUpBatch();
-// sendMail("tanvipriya25@gmail.com", "");
-sendMail("ishanjirety24@gmail.com", "");
 
 export type records = {
   Timestamp: String;

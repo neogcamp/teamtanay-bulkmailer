@@ -1,1 +1,1 @@
-Error : Sending mail			ishanjirety24@gmail.com
+Error : Sending mail			test@test.com
