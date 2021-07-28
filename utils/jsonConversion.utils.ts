@@ -29,7 +29,8 @@ export const xlxToJson = async (fileName: String) => {
   // Creating batches of 50 records
   data.forEach((member: file, key: Number) => {
     if (key < data.length - 1) {
-      if (index === 50) {
+      if (index === 53) {
+        console.log(`> Created Batch ${batches} with`, index);
         records.push(member);
         ++batches;
         createJson(batches, fileName, records);
@@ -40,6 +41,8 @@ export const xlxToJson = async (fileName: String) => {
         index += 1;
       }
     } else {
+      console.log(`> Created Batch ${batches} with`, index);
+      records.push(member);
       ++batches;
       return createJson(batches, fileName, records);
     }
