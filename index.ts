@@ -1,15 +1,11 @@
-const sgMail = require("@sendgrid/mail");
-
 const fs = require("fs");
 require("dotenv").config();
 
 const { xlxToJson, dirCleanup, sendMail } = require("./Utils");
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-
 var cron = require("node-cron");
 
-const filename = "demo";
+const filename = "TeamTanayRegisterations";
 
 let task: any = "";
 let batch = 1;
@@ -19,9 +15,9 @@ const path = __dirname + "\\json";
 async function setUpBatch() {
   const data = await xlxToJson(`${filename}.xlsx`);
   batchesCount = data.batches;
-
+  // schedule("0 */15 8-18 * * *"
   // Setting up CRON job repeat after every 15 minutes between 8AM - 6PM
-  task = cron.schedule("0 */15 8-18 * * *", () => {
+  task = cron.schedule("59 * * * * *", () => {
     console.log(
       `-----------------------------SENDING MAILS TO BATCH ${batch}--------------------------------`
     );
@@ -38,6 +34,15 @@ async function setUpBatch() {
         const delay = (Math.floor(Math.random() * 10) + 5) * 1000;
         setTimeout(() => {
           console.log(i, " : ", records[i]["Email address"], delay);
+          console.log(
+            records[i]["Tell us about your web development background?"]
+          );
+
+          // sendMail(
+          //   records[i]["Email address"],
+          //   records[i]["Tell us about your web development background?"],
+          //   delay
+          // );
         }, delay);
       }
     } else {
@@ -46,19 +51,25 @@ async function setUpBatch() {
   });
 }
 
-const intervalRef = setInterval(() => {
-  if (task !== "" && batch > batchesCount) {
-    console.log("> SIGCLEAR: CLEANING UP JSON FILES");
-    dirCleanup(filename, batchesCount, path);
+// const intervalRef = setInterval(() => {
+//   if (task !== "" && batch > batchesCount) {
+//     console.log("> SIGCLEAR: CLEANING UP JSON FILES");
+//     dirCleanup(filename, batchesCount, path);
 
-    console.log("> SIGSTOP: STOPPING CRON JOB");
-    task.stop();
+//     console.log("> SIGSTOP: STOPPING CRON JOB");
+//     task.stop();
 
-    clearInterval(intervalRef);
-  }
-}, 1000);
+//     clearInterval(intervalRef);
+//   }
+// }, 1000);
 
-setUpBatch();
+// setUpBatch();
+
+sendMail(
+  "",
+  "Beginner level (Have some idea around coding/web development)",
+  4000
+);
 
 export type records = {
   Timestamp: String;

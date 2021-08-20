@@ -1,1 +1,0 @@
-Error : Sending mail			test@test.com

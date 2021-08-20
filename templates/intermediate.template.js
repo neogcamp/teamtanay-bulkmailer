@@ -1,4 +1,4 @@
-function renderBeginnerTemplate() {
+function renderIntermediateTemplate() {
 	return `<!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -194,8 +194,7 @@ function renderBeginnerTemplate() {
 												<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 15px;padding-left: 15px;" align="left"><![endif]--><a
 													href="https://neog.camp/" style="outline:none" tabindex="-1"
 													target="_blank"><img alt="neoG Camp" border="0"
-														class="left fixedwidth"
-														src="http://cdn.mcauto-images-production.sendgrid.net/08c4f668d5fba318/7f71d54a-f4b5-4e43-adcb-13115ac48a6a/107x23.png"
+														class="left fixedwidth" src="http://cdn.mcauto-images-production.sendgrid.net/08c4f668d5fba318/7f71d54a-f4b5-4e43-adcb-13115ac48a6a/107x23.png"
 														style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 123px; max-width: 100%; display: block;"
 														title="neoG Camp" width="123" /></a>
 												<!--[if mso]></td></tr></table><![endif]-->
@@ -389,8 +388,8 @@ function renderBeginnerTemplate() {
 											<div align="center" class="img-container center autowidth"
 												style="padding-right: 0px;padding-left: 0px;">
 												<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 0px;padding-left: 0px;" align="center"><![endif]--><img
-													align="center" alt="" border="0" class="center autowidth"
-													src="https://cdn.discordapp.com/attachments/870053876521394229/870211760043479090/hero.png "
+													align="center" alt="" border="0"
+													class="center autowidth" src="https://cdn.discordapp.com/attachments/870053876521394229/870211760043479090/hero.png "
 													style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 350px; max-width: 100%; display: block;"
 													title="" width="350" />
 												<!--[if mso]></td></tr></table><![endif]-->
@@ -476,7 +475,7 @@ function renderBeginnerTemplate() {
 														valign="top" width="100%">
 														<h2
 															style="color:#ffffff;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:30px;font-weight:normal;letter-spacing:normal;line-height:120%;text-align:center;margin-top:0;margin-bottom:0;">
-															<strong>Complete your mark15 portfolio</strong></h2>
+															<strong>Direct Interview for you</strong></h2>
 													</td>
 												</tr>
 											</table>
@@ -487,40 +486,28 @@ function renderBeginnerTemplate() {
 													style="font-size: 14px; line-height: 1.5; color: #393d47; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 21px;">
 													<p
 														style="margin: 0; font-size: 14px; line-height: 1.5; word-break: break-word; text-align: center; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
-														<span style="color: #ffffff;">We understand from your details
-															that you are starting your web development journey with
-															us.</span></p>
+														<span style="color: #ffffff;">We understand from your details that you are experienced in the field of web development.</span></p>
 													<p
 														style="margin: 0; font-size: 14px; line-height: 1.5; word-break: break-word; text-align: center; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
 														 </p>
 													<p
 														style="margin: 0; font-size: 14px; line-height: 1.5; word-break: break-word; text-align: center; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
-														<span style="color: #ffffff;">Here is your <a
-																href="https://neog.camp/qualifier/point-system"
-																style="color:#fff">mark15 guide</a> to get your
-															portfolio admission
-															ready.<strong><br /><br /></strong></span></p>
+														<span style="color: #ffffff;">Hence, we have created a unique route for you to directly sit for admission interviews without making your mark15 portfolio.<strong><br /><br /></strong></span></p>
 													<p
 														style="margin: 0; font-size: 14px; line-height: 1.5; word-break: break-word; text-align: center; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
-														<strong><span style="color: #ffffff;">Admissions for beginners
-																are OPEN NOW. </span></strong></p>
-													<p
-														style="margin: 0; font-size: 14px; line-height: 1.5; word-break: break-word; text-align: center; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
-														<span style="color: #ffffff;">Please sign-in to admission
-															platform via <strong>beginners route</strong>
-															button</span><strong><span
-																style="color: #ffffff;"><br /></span></strong></p>
+														<strong><span style="color: #ffffff;">If you have 1+ year of work experience (on the date of filling the admission form),
+
+                                                        then go ahead and fill the form.
+                                                        
+                                                        ADMISSIONS ARE OPEN*.</span></strong></p>
+			
 													<p
 														style="margin: 0; font-size: 14px; line-height: 1.5; word-break: break-word; text-align: center; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
 														 </p>
 													<p
 														style="margin: 0; font-size: 14px; line-height: 1.5; word-break: break-word; text-align: center; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
-														<strong><span style="color: #ffffff;">All the best
-																neoGrammer.</span></strong></p>
-													<p
-														style="margin: 0; font-size: 14px; line-height: 1.5; word-break: break-word; text-align: center; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
-														<strong><span style="color: #ffffff;">We are rooting for
-																you.</span></strong></p>
+														<strong><span style="color: #ffffff;">All the best neoGrammer.<br>
+                                                        We are rooting for you.</span></strong></p>
 													<p
 														style="margin: 0; font-size: 14px; line-height: 1.5; word-break: break-word; text-align: center; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
 														 </p>
@@ -530,12 +517,11 @@ function renderBeginnerTemplate() {
 											<div align="center" class="button-container"
 												style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
 												<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://example.com" style="height:31.5pt;width:105pt;v-text-anchor:middle;" arcsize="10%" stroke="false" fillcolor="#ffffff"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#49A0EB; font-family:Arial, sans-serif; font-size:16px"><![endif]--><a
-													href="https://admissions.neog.camp/"
+													href="https://docs.google.com/forms/d/1TUDxmWnrXMZJkcTT89xbPm8XoXZEBFMsp6X_U-uGvlU/viewform?edit_requested=true"
 													style="-webkit-text-size-adjust: none; text-decoration: none; display: inline-block; color: #49A0EB; background-color: #ffffff; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; width: auto; width: auto; border-top: 0px solid #8a3b8f; border-right: 0px solid #8a3b8f; border-bottom: 0px solid #8a3b8f; border-left: 0px solid #8a3b8f; padding-top: 5px; padding-bottom: 5px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center; mso-border-alt: none; word-break: keep-all;"
 													target="_blank"><span
 														style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;letter-spacing:undefined;"><span
-															style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;">Beginnners
-															Route</span></span></a>
+															style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;">Intermediate Form</span></span></a>
 												<!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->
 											</div>
 											<!--[if (!mso)&(!IE)]><!-->
@@ -726,7 +712,7 @@ function renderBeginnerTemplate() {
 													<p
 														style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
 														<span style="color: #6f7077;">✓</span> Admissions are OPEN.</p>
-													<p
+														<p
 														style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
 														✓ DEADLINE: 30th September 2021</p>
 													<p
@@ -819,7 +805,7 @@ function renderBeginnerTemplate() {
 											</div>
 											<!--[if mso]></td></tr></table><![endif]-->
 											<div align="center" class="button-container"
-												style="padding-top:10px;padding-right:15px;padding-bottom:6px;padding-left:15px;">
+												style="padding-top:10px;padding-right:15px;padding-bottom:20px;padding-left:15px;">
 												<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 15px; padding-bottom: 20px; padding-left: 15px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://example.com" style="height:31.5pt;width:123pt;v-text-anchor:middle;" arcsize="10%" stroke="false" fillcolor="#49A0EB"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:Arial, sans-serif; font-size:16px"><![endif]--><a
 													href="https://docs.google.com/forms/d/1TUDxmWnrXMZJkcTT89xbPm8XoXZEBFMsp6X_U-uGvlU/viewform?edit_requested=true"
 													style="-webkit-text-size-adjust: none; text-decoration: none; display: inline-block; color: #ffffff; color: #49A0EB; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; width: auto; width: auto; border-top: 1px solid #49A0EB; margin:10px; border-right: 1px solid #49A0EB; border-bottom: 1px solid #49A0EB; border-left: 1px solid #49A0EB; padding-top: 5px; padding-bottom: 5px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center; mso-border-alt: none; word-break: keep-all;"
@@ -839,7 +825,7 @@ function renderBeginnerTemplate() {
 													<p
 														style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
 														✓ Admissions are OPEN</p>
-													<p
+														<p
 														style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
 														✓ DEADLINE: 25th August 2021</p>
 													<p
@@ -946,7 +932,7 @@ function renderBeginnerTemplate() {
 													<p
 														style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
 														✓ Admissions are OPEN</p>
-													<p
+														<p
 														style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
 														✓ DEADLINE: 25th August 2021</p>
 													<p
@@ -971,12 +957,12 @@ function renderBeginnerTemplate() {
 														style="margin: 0; line-height: 1.5; word-break: break-word; mso-line-height-alt: 21px; margin-top: 0; margin-bottom: 0;">
 														✓ All the best.</p>
 												</div>
-												<br>
-												<br>
-
 											</div>
 											<!--[if mso]></td></tr></table><![endif]-->
 											<!--[if (!mso)&(!IE)]><!-->
+											<br>
+											<br>
+											<br>
 										</div>
 										<!--<![endif]-->
 									</div>
@@ -1091,26 +1077,23 @@ function renderBeginnerTemplate() {
 																					style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; display: block;"
 																					title="instagram" width="32" /></a>
 																		</td>
-
 																		<td style="word-break: break-word; vertical-align: middle; padding-bottom: 0; padding-right: 2.5px; padding-left: 7px;"
 																			valign="top"><a
 																				href="https://discord.com/invite/4RCncKrDUX"
 																				target="_blank"><img alt="Instagram"
-																					height="26"
-																					src="https://cdn.discordapp.com/attachments/870053876521394229/870202674098868234/icons8_discord_50px.png"
+																					height="26" src="https://cdn.discordapp.com/attachments/870053876521394229/870202674098868234/icons8_discord_50px.png"
 																					style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; display: block;"
 																					title="instagram" width="26" /></a>
 																		</td>
 																		<td style="word-break: break-word; vertical-align: middle; padding-bottom: 0; padding-right: 2.5px; padding-left: 7px; "
-																			valign="top"><a
-																				href="https://www.youtube.com/watch?v=Ezk2AwqgS9Q&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&ab_channel=TanayPratap"
-																				target="_blank"><img alt="Instagram"
-																					height="26"
-																					src="https://cdn.discordapp.com/attachments/870053876521394229/870925147291410432/icons8_play_button_24px.png"
-																					style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; display: block; margin-left:3px !important;"
-																					title="instagram" width="26" /></a>
-																		</td>
-
+																		valign="top"><a
+																			href="https://www.youtube.com/watch?v=Ezk2AwqgS9Q&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&ab_channel=TanayPratap"
+																			target="_blank"><img alt="Instagram"
+																				height="26"
+																				src="https://cdn.discordapp.com/attachments/870053876521394229/870925147291410432/icons8_play_button_24px.png"
+																				style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; display: block; margin-left:3px !important;"
+																				title="instagram" width="26" /></a>
+																	</td>
 																	</tr>
 																</tbody>
 															</table>
@@ -1200,8 +1183,8 @@ function renderBeginnerTemplate() {
 																		href="https://www.designedwithbee.com/"><img
 																			align="center" alt="Designed with BEE"
 																			class="icon" height="32"
-																			src="http://cdn.mcauto-images-production.sendgrid.net/08c4f668d5fba318/41bd13aa-92f9-4e81-8459-4c085c02dec8/325x303.png"
-																			style="border:0;" width="null" /></a></td>
+																			src="http://cdn.mcauto-images-production.sendgrid.net/08c4f668d5fba318/41bd13aa-92f9-4e81-8459-4c085c02dec8/325x303.png" style="border:0;"
+																			width="null" /></a></td>
 																<td style="word-break: break-word; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 15px; color: #9d9d9d; vertical-align: middle; letter-spacing: undefined;"
 																	valign="middle"><a
 																		style="color:#9d9d9d;text-decoration:none;">Designed
@@ -1234,4 +1217,4 @@ function renderBeginnerTemplate() {
 
 
 
-module.exports = { renderBeginnerTemplate }
+module.exports = { renderIntermediateTemplate }
